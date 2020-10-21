@@ -1,6 +1,7 @@
 .topnav {
-    background-color: #333;
+    background-color: grey;
     overflow: hidden;
+    opacity: .9;
 }
 
 .topnav a {
@@ -43,13 +44,16 @@
         padding: 14px;
     }
     .topnav input[type=text] {
-        border: 1px solid #ccc;
+        border: 1px  #ccc;
     }
 }
 
 
 
-body {
-    background-color: grey;
+body{
+    background-color:#FFF9F9;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
-
