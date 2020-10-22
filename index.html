@@ -35,7 +35,18 @@
         </fieldset>
     </form>
 
-
+    <div class="gallery">
+        <iframe class="NZXTvid" width="230" height="157" src="https://www.youtube.com/embed/GYI8c89aZ98" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe class="CORSvid" width="230" height="157" src="https://www.youtube.com/embed/julpVVIgVVY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="Gallery/1.jpg" alt="NZXT$2k" class="NZXT" width="205" height="200">
+        <img src="Gallery/2.jpg" alt="CORS4KD" class="CORSAIR" width="275" height="200">
+        <img src="Gallery/3.jpg" alt="DPBuild" class="DEAD" width="203" height="200">
+        <img src="Gallery/4.jpg" alt="CleanPC" class="CLEAN" width="275" height="200">
+    </div>
 
 
 
@@ -56,45 +67,83 @@
         <fieldset>
             <legend> Graphics Card </legend>
             <li><input type="radio" name="graphicsCard" id="graphics.1080> 
-                <label for=" drink.large">Nvidia 1080</label></li>
+                <label for=" graphicsCard">Nvidia 1080</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2060s">
-                <label for="drink.medium">Nvidia 2060 Super</label></li>
+                <label for="graphicsCard">Nvidia 2060 Super</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2070">
-                <label for="drink.large">Nvidia 2070</label></li>
+                <label for="graphicsCard">Nvidia 2070</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.1080ti">
-                <label for="drink.large">Nvidia 1080 TI</label></li>
+                <label for="graphicsCard">Nvidia 1080 TI</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2070s">
-                <label for="drink.large">Nvidia 2070 Super</label></li>
+                <label for="graphicsCard">Nvidia 2070 Super</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.titan.xp">
-                <label for="drink.large">Nvidia Titan Xp</label></li>
+                <label for="graphicsCard">Nvidia Titan Xp</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2080">
-                <label for="drink.large">Nvidia 2080 </label></li>
+                <label for="graphicsCard">Nvidia 2080 </label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2080S">
-                <label for="drink.large">Nvidia 2080 Super</label></li>
+                <label for="graphicsCard">Nvidia 2080 Super</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2080TI">
-                <label for="drink.large">Nvidia 2080 TI</label></li>
+                <label for="graphicsCard">Nvidia 2080 TI</label></li>
         </fieldset>
-        <legend> CPU </legend>
-        <li><input type="radio" name="CPU" id="CPU.i5-7500"> 
-            <label for=" drink.large">Intel Core i5-7500</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.3-3100">
-            <label for="drink.medium">AMD Ryzen 3 3100</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.5-3600">
-            <label for="drink.large">AMD Ryzen 5 3600</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.7-3700x">
-            <label for="drink.large">AMD Ryzen 7 3700X</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.9-3900">
-            <label for="drink.large">AMD Ryzen 9 3900</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.9-3900XT">
-            <label for="drink.large">AMD Ryzen 9 3900XT</label></li>
-        <li><input type="radio" name="CPU" id="CPU.10700K">
-            <label for="drink.large">Intel Core i7-10700K </label></li>
-        <li><input type="radio" name="CPU" id="CPU.10850K">
-            <label for="drink.large">Intel Core i9-10850K</label></li>
-        <li><input type="radio" name="CPU" id="CPU.10900K">
-            <label for="drink.large">Intel Core i9-10900K</label></li>
         <fieldset>
-            <legend> Case </legend>
+            <legend> CPU </legend>
+            <li><input type="radio" name="CPU" id="CPU.i5-7500">
+                <label for=" CPU">Intel Core i5-7500</label></li>
+            <li><input type="radio" name="CPU" id="CPU.amd.3-3100">
+                <label for="CPU">AMD Ryzen 3 3100</label></li>
+            <li><input type="radio" name="CPU" id="CPU.amd.5-3600">
+                <label for="CPU">AMD Ryzen 5 3600</label></li>
+            <li><input type="radio" name="CPU" id="CPU.amd.7-3700x">
+                <label for="CPU">AMD Ryzen 7 3700X</label></li>
+            <li><input type="radio" name="CPU" id="CPU.amd.9-3900">
+                <label for="CPU">AMD Ryzen 9 3900</label></li>
+            <li><input type="radio" name="CPU" id="CPU.amd.9-3900XT">
+                <label for="CPU">AMD Ryzen 9 3900XT</label></li>
+            <li><input type="radio" name="CPU" id="CPU.10700K">
+                <label for="CPU">Intel Core i7-10700K </label></li>
+            <li><input type="radio" name="CPU" id="CPU.10850K">
+                <label for="CPU">Intel Core i9-10850K</label></li>
+            <li><input type="radio" name="CPU" id="CPU.10900K">
+                <label for="CPU">Intel Core i9-10900K</label></li>
+        </fieldset>
+        <fieldset>
+            <legend> Storage addon </legend>
+            <li><input type="radio" name="case" id="Addon.1hdd">
+                <label for="Storage"> 1TB HDD</label></li>
+            <li><input type="radio" name="case" id="Addon.2hdd">
+                <label for="Storage">2 TB HDD</label></li>
+            <li><input type="radio" name="case" id="Addon.1ssd">
+                <label for="Storage">1 TB SSD</label></li>
+            <li><input type="radio" name="case" id="Addon.2ssd">
+                <label for="Storage">2 TB SSD </label></li>
+            <li><input type="radio" name="case" id="Addon.1pcie">
+                <label for="Storage">1 TB PCIE SSD</label></li>
+        </fieldset>
+        <fieldset>
+            <legend> PC Case </legend>
+            <li><input type="radio" name="case" id="case.MB511">
+                <label for="case">Cooler Master MasterBox MB511</label></li>
+            <li><input type="radio" name="case" id="case.c-white">
+                <label for="case">Meshify C White</label></li>
+            <li><input type="radio" name="case" id="case.mb520">
+                <label for="case">MasterBox MB520</label></li>
+            <li><input type="radio" name="case" id="case.p300">
+                <label for="case">Eclipse P300 </label></li>
+            <li><input type="radio" name="case" id="case.h510i">
+                <label for="case">NZXT H510i</label></li>
+        </fieldset>
+        <fieldset>
+            <legend> Addons </legend>
+            <li><input type="radio" name="case" id="Addon.network">
+                <label for="Addon">Network Card(wifi access)</label></li>
+            <li><input type="radio" name="case" id="Addon.sound">
+                <label for="Addon">Sound card</label></li>
+            <li><input type="radio" name="case" id="Addon.operation">
+                <label for="Addon">Operation Card</label></li>
+            <li><input type="radio" name="case" id="Addon.capture">
+                <label for="Addon">Capture Card </label></li>
+            <li><input type="radio" name="case" id="Addon.bluetooth">
+                <label for="Addon">Bluetooth card</label></li>
         </fieldset>
     </form>
 

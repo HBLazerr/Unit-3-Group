@@ -1,6 +1,9 @@
 .topnav {
     overflow: hidden;
     opacity: .9;
+    position: sticky;
+    top: 0;
+    z-index: 0;
 }
 
 .topnav a {
