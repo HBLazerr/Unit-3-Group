@@ -1,117 +1,76 @@
 <!DOCTYPE html>
 <html lang='en'>
-
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
     <meta charset='UTF-8'>
     <meta name='author' content='Daniel Chavez'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='description' content''>
+    <meta name='description' content='This is a website built in order to prove our mastery of the basics of web design by creating a multi page website, showcasing our HTML and CSS skills.'>
 
-    <meta property='og:image' content=''>
-    <meta property='og:title' content=''>
-    <meta property='og:description' content=''>
-    <title>Magma Builds Co.</title>
+    <meta property='og:image' content='https://hblazerr.github.io/Unit-3-Group/'>
+    <meta property='og:title' content='Magma Custom PC Building Company'>
+    <meta property='og:description' content='We at Magma Builds Co. are a company dedicated to building you affordable setups that suit your every need, with satisfaction garrenteed'>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='style.css'>
-    <link rel='shortcut icon' href='' type='image/x-icon'>
-    <link rel="icon" type="image/png" sizes="32x32" href="Gallery/Magma-logo.png">
+    <link rel='shortcut icon' href='Gallery/Magma-logo.png' type='image/x-icon'>
+    <title>Magma Builds Co.</title>
 </head>
-<body>
 
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="topnav">
         <a class="active" href="#Home">Home</a>
-        <a href="#Gaming PC's">Gaming PC's</a>
-        <a href="#Streaming PC's">Streaming PC's</a>
-        <a href="#Order">Order</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#Streaming PC's">Services</a>
+        <a href="#Order">Order Form</a>
         <form class="example" action="action_page.php">
             <input type="text" placeholder="Search..." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </div>
+
     <a name="Home"></a>
     <form>
-        <fieldset>About Us
+        <fieldset>
+            <h3>About Us</h3>
             <p>Hello! We at Magma Builds Co. are a company dedicated to building you affordable setups that suit your
-                every need, with satisfaction garrenteed</p>
+            every need, with satisfaction guaranteed</p>
         </fieldset>
     </form>
-<a name="Gaming PC's"></a>
 
-    <a name="Gaming PC's"></a>
-    <p id="Gaming PC's"> Gaming PC's</p>
-    <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable gaming
-        experience</p>
+    <h3>Services</h3>
+    <div class="Services">
+    <p id="Gaming PC's">Gaming PC's</p>
+        <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable gaming
+        experience. We offer a wide range of customization to make it feel unique.</p>
 
-    <a name="Streaming PC's"></a>
-    <p id="Streaming PC's"> Streaming PC's</p>
-    <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable
-        Streaming experience</p>
+        <p id="Streaming PC's">Streaming PC's</p>
+        <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable
+        Streaming experience.</p>
+    </div>
 
-    <a name="Order"></a>
-    <p> Order </p>
-  
-<form>
-
-    <!-- Gallery DAN -->
-    <div class="gallery">
-        <iframe class="NZXTvid" width="230" height="157" src="https://www.youtube.com/embed/GYI8c89aZ98" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="CORSvid" width="230" height="157" src="https://www.youtube.com/embed/julpVVIgVVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Gallery</h3>
+        <div class="gallery">
+        <iframe class="NZXTvid" width="230" height="157" src="https://www.youtube.com/embed/GYI8c89aZ98" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <iframe class="CORSvid" width="230" height="157" src="https://www.youtube.com/embed/julpVVIgVVY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
         <img src="Gallery/1.jpg" alt="NZXT$2k" class="NZXT" width="205" height="200">
         <img src="Gallery/2.jpg" alt="CORS4KD" class="CORSAIR" width="275" height="200">
         <img src="Gallery/3.jpg" alt="DPBuild" class="DEAD" width="203" height="200">
         <img src="Gallery/4.jpg" alt="CleanPC" class="CLEAN" width="275" height="200">
     </div>
 
-    <!-- Kyle's Order Form -->
-        <fieldset>
-            <legend> Graphics Card </legend>
-            <li><input type="radio" name="graphicsCard" id="graphics.1080> 
-                <label for=" drink.large">Nvidia 1080</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2060s">
-                <label for="drink.medium">Nvidia 2060 Super</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2070">
-                <label for="drink.large">Nvidia 2070</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.1080ti">
-                <label for="drink.large">Nvidia 1080 TI</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2070s">
-                <label for="drink.large">Nvidia 2070 Super</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.titan.xp">
-                <label for="drink.large">Nvidia Titan Xp</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2080">
-                <label for="drink.large">Nvidia 2080 </label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2080S">
-                <label for="drink.large">Nvidia 2080 Super</label></li>
-            <li><input type="radio" name="graphicsCard" id="graphics.2080TI">
-                <label for="drink.large">Nvidia 2080 TI</label></li>
-        </fieldset>
-<legend> CPU </legend>
-        <li><input type="radio" name="CPU" id="CPU.i5-7500"> 
-            <label for=" drink.large">Intel Core i5-7500</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.3-3100">
-            <label for="drink.medium">AMD Ryzen 3 3100</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.5-3600">
-            <label for="drink.large">AMD Ryzen 5 3600</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.7-3700x">
-            <label for="drink.large">AMD Ryzen 7 3700X</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.9-3900">
-            <label for="drink.large">AMD Ryzen 9 3900</label></li>
-        <li><input type="radio" name="CPU" id="CPU.amd.9-3900XT">
-            <label for="drink.large">AMD Ryzen 9 3900XT</label></li>
-        <li><input type="radio" name="CPU" id="CPU.10700K">
-            <label for="drink.large">Intel Core i7-10700K </label></li>
-        <li><input type="radio" name="CPU" id="CPU.10850K">
-            <label for="drink.large">Intel Core i9-10850K</label></li>
-        <li><input type="radio" name="CPU" id="CPU.10900K">
-            <label for="drink.large">Intel Core i9-10900K</label></li>
-        <fieldset>
-            <legend> PC Case </legend>
 
-
-    <form>
+    <h3>Order</h3>
+    <form style="list-style: none;">
         <fieldset>
-            <legend> Graphics Card </legend>
+            <legend>Graphics Card</legend>
             <li><input type="radio" name="graphicsCard" id="graphics.1080> 
                 <label for=" graphicsCard">Nvidia 1080</label></li>
             <li><input type="radio" name="graphicsCard" id="graphics.2060s">
@@ -132,7 +91,7 @@
                 <label for="graphicsCard">Nvidia 2080 TI</label></li>
         </fieldset>
         <fieldset>
-            <legend> CPU </legend>
+            <legend>CPU</legend>
             <li><input type="radio" name="CPU" id="CPU.i5-7500">
                 <label for=" CPU">Intel Core i5-7500</label></li>
             <li><input type="radio" name="CPU" id="CPU.amd.3-3100">
@@ -153,7 +112,7 @@
                 <label for="CPU">Intel Core i9-10900K</label></li>
         </fieldset>
         <fieldset>
-            <legend> Storage addon </legend>
+            <legend>Storage add-on</legend>
             <li><input type="radio" name="case" id="Addon.1hdd">
                 <label for="Storage"> 1TB HDD</label></li>
             <li><input type="radio" name="case" id="Addon.2hdd">
@@ -166,7 +125,7 @@
                 <label for="Storage">1 TB PCIE SSD</label></li>
         </fieldset>
         <fieldset>
-            <legend> PC Case </legend>
+            <legend>PC Case</legend>
             <li><input type="radio" name="case" id="case.MB511">
                 <label for="case">Cooler Master MasterBox MB511</label></li>
             <li><input type="radio" name="case" id="case.c-white">
@@ -179,7 +138,7 @@
                 <label for="case">NZXT H510i</label></li>
         </fieldset>
         <fieldset>
-            <legend> Addons </legend>
+            <legend>Add-ons</legend>
             <li><input type="radio" name="case" id="Addon.network">
                 <label for="Addon">Network Card(wifi access)</label></li>
             <li><input type="radio" name="case" id="Addon.sound">
@@ -194,20 +153,4 @@
     </form>
 
 
-    <footer class="footer">
-        <b><p>(c) Copyright 2020 by Daniel Chavez & Kyle Ehrenfeld. All Rights Reserved</p></b>
-
-        <p>Credits for Images in Gallery Below</p>
-            <a href="https://www.youtube.com/watch?v=GYI8c89aZ98">NZXT Video</a>
-            <a href="https://www.youtube.com/watch?v=julpVVIgVVY">Corsair Video</a>
-
-            <a href="https://pcpartpicker.com/b/GQwhP6">NZXT PC</a>
-            <a href="https://www.youtube.com/watch?v=julpVVIgVVY">Corsair PC</a>
-            <a href="https://www.village.co/us/i/tablets-computers/high-end-gaming-pc-custom-build">Deadpool PC</a>
-            <a href="https://www.reddit.com/r/watercooling/comments/7p298b/just_finished_my_h700i_build/">Clean PC</a>
-            <a href="https://seeklogo.com/vector-logo/87312/magma">Magma Logo</a>
-    </footer>
-
 </body>
-
-</html>

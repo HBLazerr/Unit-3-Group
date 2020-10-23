@@ -48,8 +48,6 @@
     }
 }
 
-
-
 body{
     font-family: 'Gruppo', cursive;
         font-size: x-large;
@@ -63,15 +61,20 @@ body{
     background-size: cover;
 }
 
-    /* Dan Gallery */
-    .gallery{
-        border-bottom: var(--border);
-        border-left: var(--border);
-        grid-area: mains;
-        grid-column: 2 / -2;
-        padding: 2rem 1rem;
-    }
+/* services */
+.Services{
+    align-items: center;
+}
 
-    .footer {
-        color: #fff;
-    }
+/* Dan Gallery */
+.gallery{
+    border-bottom: var(--border);
+    border-left: var(--border);
+    grid-area: mains;
+    grid-column: 2 / -2;
+    padding: 2rem 1rem;
+}
+
+.footer{
+    color: #fff;
+}
