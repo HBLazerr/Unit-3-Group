@@ -84,6 +84,15 @@ body {
     margin-bottom: 30px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(193, 218, 255);
+}
+
 .order {
     border-color: rgb(193, 218, 255);
     border-width: 5px;
