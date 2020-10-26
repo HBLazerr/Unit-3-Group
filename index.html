@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
     <meta charset='UTF-8'>
-    <meta name='author' content='Daniel Chavez'>
+    <meta name='author' content='Daniel Chavez,Kyle Ehrenfeld'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='description' content='This is a website built in order to prove our mastery of the basics of web design by creating a multi page website, showcasing our HTML and CSS skills.'>
 
@@ -19,11 +19,13 @@
 
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a name="linktotop"></a>
     <div class="topnav">
         <a class="active" href="#Home">Home</a>
-        <a href="#Streaming PC's">Services</a>
-        <a href="#Gallery">Gallery</a>
-        <a href="#Order">Order Form</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#order">Order Form</a>
+        
         <form class="example" action="action_page.php">
             <input type="text" placeholder="Search..." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -31,45 +33,44 @@
     </div>
 
     <a name="Home"></a>
-    <form>
-        <fieldset>
             <h2>About Us</h2>
             <p>Hello! We at Magma Builds Co. are a company dedicated to building you affordable setups that suit your
             every need, with satisfaction guaranteed</p>
-        </fieldset>
-    </form>
 
+    <div class="services">
+    <a name="services"></a>
     <h2>Services</h2>
-    <div class="Services">
+
     <h4 id="Gaming PC's">Gaming PC's</h4>
-        <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable gaming
-        experience. We offer a wide range of customization to make it feel unique.</p>
+        <p>Browse through a collection of Magma Builds Godly computers that were hand crafted for a <b>pleasurable</b> Gaming
+        Experience. We offer a wide range of customization to make it feel unique. Our <b>amazing</b> PC's can handle a wide-range of games while maintaining <b>outstanding</b> Frames.</p>
 
         <h4 id="Streaming PC's">Streaming PC's</h4>
-        <p>Browse through a collection of Magma Builds Co. premire computers that were hand crafted for a plesurable
-        Streaming experience.</p>
+        <p>Browse through a collection of Magma Builds Prime computers that were hand crafted for a plesurable
+        Streaming Experience.</p>
     </div>
 
+    <div class="gallery">
+    <a name="gallery"></a>
     <h2>Gallery</h2>
-        <div class="gallery">
-        <iframe class="NZXTvid" width="230" height="157" src="https://www.youtube.com/embed/GYI8c89aZ98" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-        <iframe class="CORSvid" width="230" height="157" src="https://www.youtube.com/embed/julpVVIgVVY" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-        <img src="Gallery/1.jpg" alt="NZXT$2k" class="NZXT" width="205" height="200">
-        <img src="Gallery/2.jpg" alt="CORS4KD" class="CORSAIR" width="275" height="200">
-        <img src="Gallery/3.jpg" alt="DPBuild" class="DEAD" width="203" height="200">
-        <img src="Gallery/4.jpg" alt="CleanPC" class="CLEAN" width="275" height="200">
+    <iframe class="NZXTvid" width="230" height="157" src="https://www.youtube.com/embed/GYI8c89aZ98" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <iframe class="CORSvid" width="230" height="157" src="https://www.youtube.com/embed/julpVVIgVVY" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <img src="Gallery/1.jpg" alt="NZXT$2k" class="NZXT" width="205" height="200">
+    <img src="Gallery/2.jpg" alt="CORS4KD" class="CORSAIR" width="275" height="200">
+    <img src="Gallery/3.jpg" alt="DPBuild" class="DEAD" width="203" height="200">
+    <img src="Gallery/4.jpg" alt="CleanPC" class="CLEAN" width="275" height="200">
     </div>
 
-
-    <h3>Order</h3>
+    <a name="order"></a>
+    <h2>Order Form</h2>
     <form style="list-style: none;">
-        <fieldset>
+        <fieldset class="order">
             <legend>Graphics Card</legend>
             <li><input type="radio" name="graphicsCard" id="graphics.1080> 
                 <label for=" graphicsCard">Nvidia 1080</label></li>
@@ -90,7 +91,7 @@
             <li><input type="radio" name="graphicsCard" id="graphics.2080TI">
                 <label for="graphicsCard">Nvidia 2080 TI</label></li>
         </fieldset>
-        <fieldset>
+        <fieldset class="order">
             <legend>CPU</legend>
             <li><input type="radio" name="CPU" id="CPU.i5-7500">
                 <label for=" CPU">Intel Core i5-7500</label></li>
@@ -111,7 +112,7 @@
             <li><input type="radio" name="CPU" id="CPU.10900K">
                 <label for="CPU">Intel Core i9-10900K</label></li>
         </fieldset>
-        <fieldset>
+        <fieldset class="order">
             <legend>Storage add-on</legend>
             <li><input type="radio" name="case" id="Addon.1hdd">
                 <label for="Storage"> 1TB HDD</label></li>
@@ -124,7 +125,7 @@
             <li><input type="radio" name="case" id="Addon.1pcie">
                 <label for="Storage">1 TB PCIE SSD</label></li>
         </fieldset>
-        <fieldset>
+        <fieldset class="order">
             <legend>PC Case</legend>
             <li><input type="radio" name="case" id="case.MB511">
                 <label for="case">Cooler Master MasterBox MB511</label></li>
@@ -137,10 +138,10 @@
             <li><input type="radio" name="case" id="case.h510i">
                 <label for="case">NZXT H510i</label></li>
         </fieldset>
-        <fieldset>
+        <fieldset class="order" >
             <legend>Add-ons</legend>
             <li><input type="radio" name="case" id="Addon.network">
-                <label for="Addon">Network Card(wifi access)</label></li>
+                <label for="Addon">Network Card (Wi-Fi Access)</label></li>
             <li><input type="radio" name="case" id="Addon.sound">
                 <label for="Addon">Sound card</label></li>
             <li><input type="radio" name="case" id="Addon.operation">
@@ -153,6 +154,7 @@
     </form>
 
     <footer class="footer">
+    <a href="#linktotop">Back to Top</a>
         <b><p>(c) Copyright 2020 by Daniel Chavez & Kyle Ehrenfeld. All Rights Reserved</p></b>
 
         <p>Credits for Images in Gallery Below</p>
